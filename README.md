@@ -4,8 +4,8 @@ To run the project:
   
 You need npm and your own discord bot.
   
-1. Create a config.json file in the root with your token and wanted prefix for commands.  
-2. Clone the repository  
+1. Clone the repository
+2. Rename "config.json.template" to "config.json" and fill it in with your own token. Never publish your bot token. 
 3. Run "npm install"
 4. Run "node index.js" on the command line and the bot will start and show up online.
   
