@@ -48,14 +48,11 @@ client.on('messageCreate', async message => {
 
 	const onlineMembers = message.guild.roles.cache.get(rrcId).members.filter((member) => !member.user?.bot && member.presence?.status == 'online').map((member) => member);
 	if (gifut.includes(message.content)) {
-		console.log('onlinessa rrc ukkoja: ' + onlineMembers.length);
 		if (onlineMembers.length > 1) {
 			message.react('🚫');
-			console.log('laiton only one awake postattu (' + message.author + ')');
 		}
 		else {
 			message.react('✅');
-			console.log('only one awake hyväksytty (' + message.author + ')');
 		}
 	}
 	else if (message.content === '<a:YEPJAM:889931727592644649>') {
