@@ -1,5 +1,5 @@
 # yep-bot
-A music bot based on the discord.js API  
+A music bot based on the discord.js API v.13  
 To run the project:  
   
 You need npm and your own discord npm.
